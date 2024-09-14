@@ -1,0 +1,26 @@
+.skills {
+    color: #ebedeb;
+    background-color: rgba(2, 9, 113, 0.86),
+}
+
+.parent {
+    // position: relative;
+    position: absolute;
+    object-fit: cover;
+    // object-position: 15% 100%;
+    // height: 75%;
+    height: 250px;
+    width: 100%;
+}
+
+.child1 {
+    position: relative;
+    // position: absolute;
+    top: 10px;
+    // left: 5%;
+}
+
+.col-card {
+    background-color: rgba(2, 9, 113, 0.683);
+    color: #ebedeb
+}

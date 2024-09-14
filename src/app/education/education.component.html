@@ -1,0 +1,54 @@
+<div (mouseover)="this.isOpen= false" style="padding-bottom: 16px;">
+    <div class="container text-center" style="padding-top: 30px;">
+        <span style="font-size: 27px; font-weight: 200;">Education</span>
+        <hr>
+    </div>
+
+    <div class="container text-center">
+        <div (appear)="onAppear()" class="row justify-content-md-center">
+            <div class="col col-3" [@leftRight]="isOpen ? 'left' : 'right'">
+                <span style="font-size: 13px; font-weight: 600;">2012 - 2014</span>
+                <br>
+                <span style="font-size: 13px; font-weight: 300;">Associate of Arts - AA</span>
+            </div>
+            <div class="col col-1">
+                <div class="vl text-center"></div>
+                <span class="dot" [@downUp]="isOpen ? 'down' : 'up'"></span>
+            </div>
+            <div class="col col-5" [@rightLeft]="isOpen ? 'right' : 'left'">
+                <span style="font-size: 13px; font-weight: 400;">Collin County Community College</span>
+                <hr>
+                <span style="font-size: 12px; font-weight: 300;">Studying accounting for an Associate in Arts degree at
+                    Collin County Community College provides a strong foundation in financial principles and practices.
+                    Through coursework covering topics such as financial accounting, managerial accounting, and tax
+                    accounting, I gained the essential knowledge and skills to pursue careers in accounting,
+                    finance, or related fields. The program offers a flexible and affordable pathway to academic and
+                    professional success.</span>
+            </div>
+        </div>
+        <br>
+        <div class="row justify-content-md-center">
+            <div class="col col-3" [@leftRight]="isOpen ? 'left' : 'right'">
+                <span style="font-size: 13px; font-weight: 600;">2001 - 2005</span>
+                <br>
+                <span style="font-size: 13px; font-weight: 300;">High School Diploma</span>
+            </div>
+            <div class="col col-1">
+                <div class="vl text-center"></div>
+                <span class="dot" [@downUp]="isOpen ? 'down' : 'up'"></span>
+            </div>
+            <div class="col col-5" [@rightLeft]="isOpen ? 'right' : 'left'">
+                <span style="font-size: 13px; font-weight: 400;">Farmersville Highschool</span>
+                <hr>
+                <span style="font-size: 12px; font-weight: 300;">Attending Farmersville High School for my high school
+                    diploma provided me with a solid academic foundation and valuable life experiences. Through rigorous
+                    coursework and extracurricular activities, I developed essential skills in critical thinking,
+                    problem-solving, and teamwork. The supportive and nurturing environment at Farmersville High School
+                    helped me to reach my full potential and prepare for future success.</span>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
