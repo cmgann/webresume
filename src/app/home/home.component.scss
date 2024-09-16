@@ -1,17 +1,17 @@
-.parent {
-    position: relative;
-    object-fit: cover;
-    // object-position: 15% 100%;
-    // height: 75%;
-    height: 450px;
-    width: 100%;
-}
+// .parent {
+//     position: relative;
+//     object-fit: cover;
+//     // object-position: 15% 100%;
+//     // height: 75%;
+//     height: 450px;
+//     width: 100%;
+// }
 
-.child1 {
-    position: absolute;
-    top: 150px;
-    left: 10%;
-}
+// .child1 {
+//     position: absolute;
+//     top: 150px;
+//     left: 10%;
+// }
 
 .profile-container {
     // background-color: #dcdee0;
@@ -36,4 +36,29 @@ strong {
 
 span {
     font-weight: 100;
+}
+
+
+.parent {
+    // position: relative;
+    position: absolute;
+    object-fit: cover;
+    // object-position: 15% 100%;
+    // height: 75%;
+    height: 550px;
+    width: 100%;
+}
+
+.child1 {
+    position: relative;
+    // position: absolute;
+    top: 100px;
+    // left: 5%;
+}
+
+.child2 {
+    position: relative;
+    // position: absolute;
+    top: 150px;
+    // left: 5%;
 }
